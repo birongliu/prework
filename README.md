@@ -17,9 +17,8 @@ The following functionality is completed:
 
 Here's a walkthrough of implemented features:
 
-youtube link demo: https://youtu.be/N94NznoBVIo
+youtube link demo: https://youtu.be/72ytJ5z1jyg
 
-<img src='https://youtu.be/N94NznoBVIo' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## License
 

@@ -20,9 +20,9 @@ function addCoffeeToPage(coffees) {
         const coffeeCardDiv = document.createElement("div");
         coffeeCardDiv.classList.add("coffee-card");
         coffeeCardDiv.innerHTML = `
-            <img class="coffee-img" width="300px" src="${coffee.image}" alt="${coffee.title}"/>
+            <img class="coffee-img" width="300px; height=300px" src="${coffee.image}" alt="${coffee.title}"/>
             <h1 id="title">${coffee.title}</h1>
-            <div>ingredients:<ul>${coffee.ingredients.map(k => `<li>${k}</li>`).join('')}</ul></div>
+            <div>ingredients: ${coffee.ingredients.map(k => `<li>${k}</li>`).join('')}</div>
             <p>${coffee.description}</p>
         `;
         coffeesContainer.appendChild(coffeeCardDiv);
