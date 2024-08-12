@@ -11,6 +11,8 @@ Time spnt: **5** hours spent in total
 The following functionality is completed:
 
 * [x] implemented a search functionality by name, ingredients, descriptions
+* [x] implemented a filter for hot or cold drinks
+
 
 
 ## Video Walkthrough
