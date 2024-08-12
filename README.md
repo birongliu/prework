@@ -6,7 +6,7 @@ Submitted by: **Bi Rong Liu**
 
 Time spnt: **5** hours spent in total
 
-# Instruction | live production link: https://birongliu.github.io/prework/
+## Instruction | live production link: https://birongliu.github.io/prework/
 - git clone https://github.com/birongliu/prework.git
 - open IDE (integrated development environement)
 - right click on index.html
