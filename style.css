@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+#query-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.coffee-input {
+    width: 50%; 
+    padding: 10px;
+    height: 40px;
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #fff; 
+    font-size: 16px;
+    color: #333; /* Dark text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#coffees-container-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+#left-arrow {
+    left: 10px;
+}
+
+#right-arrow {
+    right: 10px;
+}
+
+#coffees-container {
+    margin: 20px 50px;
+    display: flex;
+    gap: 10px;
+    scroll-behavior: smooth;
+}
+
+.coffee-img {
+    border-radius: 5px;
+}
+
+.coffee-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 0 0 calc(25% - 10px);
+
+}
+@media (max-width: 768px) {
+    .coffee-card {
+        display: flex;
+        align-items: center;
+        flex: 0 0 100%; /* One card per row */
+    }
+}
+#coffees-container {
+    margin: 20px 50px;
+    display: flex;
+    gap: 10px;
+    overflow-x: hidden;
+
+}
+
+
+.coffee-img {
+    border-radius: 5px;
+}
+.coffee-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
