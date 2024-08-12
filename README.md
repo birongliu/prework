@@ -6,13 +6,18 @@ Submitted by: **Bi Rong Liu**
 
 Time spnt: **5** hours spent in total
 
+# Instruction | live production link: https://birongliu.github.io/prework/
+- git clone https://github.com/birongliu/prework.git
+- open IDE (integrated development environement)
+- right click on index.html
+- should see the website on localhost
+
 ## Features
 
 The following functionality is completed:
 
 * [x] implemented a search functionality by name, ingredients, descriptions
 * [x] implemented a filter for hot or cold drinks
-
 
 
 ## Video Walkthrough
